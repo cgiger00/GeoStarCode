@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1A4AAEF922258EF3005888FE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A4AAEF822258EF3005888FE /* main.cpp */; };
+		1A9B48CE2236BF4400FB5400 /* RasterClassifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A9B48CD2236BF4400FB5400 /* RasterClassifier.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +26,8 @@
 /* Begin PBXFileReference section */
 		1A4AAEF522258EF3005888FE /* GeoStarCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GeoStarCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A4AAEF822258EF3005888FE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		1A4AAEFF22258F6A005888FE /* GaussianPDF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaussianPDF.h; sourceTree = "<group>"; };
+		1A9B48CA2236BF0B00FB5400 /* RasterClassifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RasterClassifier.h; sourceTree = "<group>"; };
+		1A9B48CD2236BF4400FB5400 /* RasterClassifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RasterClassifier.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 		1A4AAEF722258EF3005888FE /* GeoStarCode */ = {
 			isa = PBXGroup;
 			children = (
+				1A9B48CD2236BF4400FB5400 /* RasterClassifier.cpp */,
 				1A4AAEF822258EF3005888FE /* main.cpp */,
-				1A4AAEFF22258F6A005888FE /* GaussianPDF.h */,
+				1A9B48CA2236BF0B00FB5400 /* RasterClassifier.h */,
 			);
 			path = GeoStarCode;
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A4AAEF922258EF3005888FE /* main.cpp in Sources */,
+				1A9B48CE2236BF4400FB5400 /* RasterClassifier.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +255,7 @@
 				1A4AAEFE22258EF3005888FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
